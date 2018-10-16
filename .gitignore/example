@@ -1,0 +1,6 @@
+displayBtn = (Button) findViewById(R.id.displayBtn);
+    displayBtn .setOnClickListener(new View.OnClickListener() {
+        public void onClick(View v) {
+            startActivity(new Intent(Settings.ACTION_DISPLAY_SETTINGS));
+        }
+    });
